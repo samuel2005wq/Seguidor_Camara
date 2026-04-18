@@ -1,7 +1,7 @@
 from maix import camera, display, image, nn, app, uart
 import os
 
-model_path = "/root/models/model-264135.maixcam/model_264135.mud"
+model_path = "/root/models/model-264492.maixcam/model_264492.mud"
 classifier = nn.Classifier(model=model_path)
 cam = camera.Camera(classifier.input_width(), classifier.input_height(), classifier.input_format())
 disp = display.Display()
